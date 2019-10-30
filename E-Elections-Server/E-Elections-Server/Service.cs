@@ -13,13 +13,11 @@ namespace E_Elections_Server
             try
             {
                 USER data = new USER();
-                if (user == "camellabs" && pass == "camellabs")
-                {
                     data.username = user;
                     data.password = pass;
                     data.firstname = "ecco";
                     data.lastname = "suprastyo";
-                }
+          
                 return data;
             }
             catch (Exception ex)
